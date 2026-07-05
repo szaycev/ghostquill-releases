@@ -5,5 +5,26 @@
         <link>https://github.com/szaycev/ghostquill-releases</link>
         <description>GhostQuill release feed.</description>
         <language>en</language>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 06 Jul 2026 02:05:53 +0300</pubDate>
+            <link>https://github.com/szaycev/ghostquill-releases</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>GhostQuill 1.0.0</h2>
+<p>The first public release of GhostQuill — push-to-talk voice typing for your Mac.</p>
+<ul>
+  <li>Hold your shortcut, speak, release — the transcript is typed into whatever app you are working in.</li>
+  <li>Transcription runs entirely on your Mac with whisper.cpp. Audio and transcripts never leave the machine.</li>
+  <li>Pick the Whisper model that fits your Mac — from fastest to most accurate — downloaded on demand.</li>
+  <li>The Scratchpad catches your words when no text field is focused, and doubles as a dictation window.</li>
+  <li>Guided onboarding: permissions, model download, and shortcut setup in a couple of minutes.</li>
+  <li>Automatic background updates.</li>
+</ul>
+<p>Requires macOS 15 or later, plus the Microphone and Accessibility permissions.</p>
+]]></description>
+            <enclosure url="https://github.com/szaycev/ghostquill-releases/releases/download/v1.0.0/GhostQuill-1.0.0.zip" length="6304264" type="application/octet-stream" sparkle:edSignature="R8HcT6vjgCV5+AOnZZloFXxoMRJEhGwWAtzlxoRByLV/rX+8pQChHaHa7KHS5O+FSFxDv7wDOX60HxuMVnU3CQ=="/>
+        </item>
     </channel>
 </rss>
