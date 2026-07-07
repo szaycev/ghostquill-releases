@@ -1,0 +1,10 @@
+<h2>GhostQuill 1.0.1</h2>
+<p>A reliability update for the dictation loop.</p>
+<ul>
+  <li>Switching or unplugging your microphone mid-dictation (AirPods connecting, a headset pulled) now stops the recording with a clear "Microphone changed — try again" instead of silently garbling the capture.</li>
+  <li>A transcription that takes too long can now be cancelled right from the menu bar — GhostQuill returns to Ready, and your next dictation starts fresh.</li>
+  <li>Check for updates on demand: Settings → Application → "Check for Updates…".</li>
+  <li>More reliable insertion into browsers and Electron-based apps (Slack, VS Code, and the like): GhostQuill now gives slow targets more time to consume the paste, so they no longer end up with your previous clipboard contents instead of the transcript.</li>
+  <li>Settings now shows the model that will actually be used — including the default when none is explicitly selected — and flags a failed model download right on the summary row.</li>
+  <li>A stuck transcription now recovers within four minutes at worst, instead of blocking dictation for up to twenty.</li>
+</ul>
